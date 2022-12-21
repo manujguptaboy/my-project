@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    
+  }
+  .upercase{
+    text-transform: uppercase;
+  }
+  .semibold{
+    font-weight: bolder;
+  }
+  .mx-2{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+  }
+  
+  header{
+    height: 66px;
+    position: sticky;
+    top: 0;
+   background: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  /* @media only screen and (max-width: 1500px){
+    header{
+      background: red;
+      height: 122px;
+    }
+    nav{
+      flex-direction: column;
+      align-items: center;
+    }
+  } */
+  .search{
+    width:24vw ;
+    padding: 7px 17px;
+    border: .5px gray;
+    background: #dedce5;
+    border-radius: 5px;
+  }
+  /* .myntra{
+    height: 20;
+  } */
+  
+  
